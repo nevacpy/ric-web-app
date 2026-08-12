@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "analytics": "arch -arm64 ric-api/.venv/bin/python ric-api/generate_analytics.py",
+    "analytics:csv": "arch -arm64 ric-api/.venv/bin/python ric-api/generate_analytics.py --input-csv",
+    "analytics:open": "cd ric-api && latest=$(ls -1 analytics_output | sort | tail -n 1) && open \"analytics_output/$latest/index.html\"",
+    "analytics:run-open": "pnpm run analytics && pnpm run analytics:open"
   },
   "dependencies": {
     "expo-camera": "^57.0.3",

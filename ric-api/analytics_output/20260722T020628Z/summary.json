@@ -1,0 +1,200 @@
+{
+  "run_id": "20260722T020628Z",
+  "rows": 2992,
+  "images": 187,
+  "models": [
+    "ric1-ric5-v6",
+    "ric1-v5",
+    "ric5-v1",
+    "yolov8"
+  ],
+  "preprocesses": [
+    "baseline",
+    "canny",
+    "clahe",
+    "clahe_canny"
+  ],
+  "overall_accuracy": 0.10127005347593583,
+  "combo_metrics": [
+    {
+      "combo": "ric5-v1 | clahe_canny",
+      "total": 187,
+      "accuracy": 0.22994652406417113,
+      "median_latency_ms": 42.59,
+      "p95_latency_ms": 47.211999999999996,
+      "confidence_median": 0.0
+    },
+    {
+      "combo": "ric1-v5 | clahe_canny",
+      "total": 187,
+      "accuracy": 0.21390374331550802,
+      "median_latency_ms": 42.6,
+      "p95_latency_ms": 48.068999999999996,
+      "confidence_median": 0.0
+    },
+    {
+      "combo": "ric1-v5 | clahe",
+      "total": 187,
+      "accuracy": 0.20855614973262032,
+      "median_latency_ms": 42.66,
+      "p95_latency_ms": 46.541,
+      "confidence_median": 0.0
+    },
+    {
+      "combo": "ric1-v5 | baseline",
+      "total": 187,
+      "accuracy": 0.11764705882352941,
+      "median_latency_ms": 42.53,
+      "p95_latency_ms": 48.51699999999999,
+      "confidence_median": 0.0
+    },
+    {
+      "combo": "ric5-v1 | clahe",
+      "total": 187,
+      "accuracy": 0.11764705882352941,
+      "median_latency_ms": 42.6,
+      "p95_latency_ms": 46.903999999999996,
+      "confidence_median": 0.0
+    },
+    {
+      "combo": "ric5-v1 | canny",
+      "total": 187,
+      "accuracy": 0.11229946524064172,
+      "median_latency_ms": 42.49,
+      "p95_latency_ms": 47.147,
+      "confidence_median": 0.0
+    },
+    {
+      "combo": "ric1-v5 | canny",
+      "total": 187,
+      "accuracy": 0.09090909090909091,
+      "median_latency_ms": 42.61,
+      "p95_latency_ms": 46.379999999999995,
+      "confidence_median": 0.0
+    },
+    {
+      "combo": "ric1-ric5-v6 | canny",
+      "total": 187,
+      "accuracy": 0.0855614973262032,
+      "median_latency_ms": 42.67,
+      "p95_latency_ms": 46.675,
+      "confidence_median": 0.0
+    },
+    {
+      "combo": "ric1-ric5-v6 | clahe_canny",
+      "total": 187,
+      "accuracy": 0.08021390374331551,
+      "median_latency_ms": 42.47,
+      "p95_latency_ms": 46.844,
+      "confidence_median": 0.0
+    },
+    {
+      "combo": "ric1-ric5-v6 | baseline",
+      "total": 187,
+      "accuracy": 0.08021390374331551,
+      "median_latency_ms": 42.5,
+      "p95_latency_ms": 46.532,
+      "confidence_median": 0.0
+    },
+    {
+      "combo": "ric1-ric5-v6 | clahe",
+      "total": 187,
+      "accuracy": 0.0748663101604278,
+      "median_latency_ms": 42.6,
+      "p95_latency_ms": 46.626999999999995,
+      "confidence_median": 0.0
+    },
+    {
+      "combo": "ric5-v1 | baseline",
+      "total": 187,
+      "accuracy": 0.058823529411764705,
+      "median_latency_ms": 42.28,
+      "p95_latency_ms": 46.737,
+      "confidence_median": 0.0
+    },
+    {
+      "combo": "yolov8 | clahe_canny",
+      "total": 187,
+      "accuracy": 0.0374331550802139,
+      "median_latency_ms": 44.36,
+      "p95_latency_ms": 49.038,
+      "confidence_median": 0.0
+    },
+    {
+      "combo": "yolov8 | canny",
+      "total": 187,
+      "accuracy": 0.0374331550802139,
+      "median_latency_ms": 44.44,
+      "p95_latency_ms": 48.589,
+      "confidence_median": 0.0
+    },
+    {
+      "combo": "yolov8 | clahe",
+      "total": 187,
+      "accuracy": 0.0374331550802139,
+      "median_latency_ms": 44.44,
+      "p95_latency_ms": 48.681,
+      "confidence_median": 0.0
+    },
+    {
+      "combo": "yolov8 | baseline",
+      "total": 187,
+      "accuracy": 0.0374331550802139,
+      "median_latency_ms": 44.45,
+      "p95_latency_ms": 48.544,
+      "confidence_median": 0.0
+    }
+  ],
+  "hardest_variants": [
+    {
+      "variant": "pet1_not_transparnet_embossed",
+      "total": 80,
+      "accuracy": 0.0125
+    },
+    {
+      "variant": "pp5_not_transluent_embossed",
+      "total": 288,
+      "accuracy": 0.05555555555555555
+    },
+    {
+      "variant": "pet1_print",
+      "total": 304,
+      "accuracy": 0.05592105263157895
+    },
+    {
+      "variant": "pp5_printed",
+      "total": 128,
+      "accuracy": 0.0625
+    },
+    {
+      "variant": "pet1_special",
+      "total": 64,
+      "accuracy": 0.0625
+    },
+    {
+      "variant": "pet1_transparent_embossed",
+      "total": 1104,
+      "accuracy": 0.06340579710144928
+    },
+    {
+      "variant": "pp5_special",
+      "total": 176,
+      "accuracy": 0.07954545454545454
+    },
+    {
+      "variant": "pp5_transluent_embossed",
+      "total": 720,
+      "accuracy": 0.09027777777777778
+    },
+    {
+      "variant": "pet1",
+      "total": 16,
+      "accuracy": 0.4375
+    },
+    {
+      "variant": "other_rics",
+      "total": 112,
+      "accuracy": 0.9017857142857143
+    }
+  ]
+}
